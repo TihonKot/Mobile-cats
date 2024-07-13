@@ -10,11 +10,20 @@ body {
     float: left;
     width: 25%;
     padding: 0 10px;
-    margin: 20px;
 }
 
+  /* Удалите лишние левые и правые поля, из-за заполнения */
+.row {margin: 5 5px;}
 
-    @media screen and (max-width: 600px) {
+  /* Очистить поплавки после столбцов */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+  /* Отзывчивые столбцы */
+@media screen and (max-width: 600px) {
     .column {
     width: 100%;
     display: block;
@@ -28,16 +37,22 @@ body, html {
     height: 100%;
 }
 
+.start__text {
+    text-align: center;
+}
+
+
 .card {
     border: 3px;
     border-color: black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
-    background-color: #f9fbe9;
+    background-color: #fdf3db;
     border-radius: 10px;
     height: 420px;
-    width: 300px;
+    width: 330px;
+    justify-content: center;
 }
 
 
@@ -80,8 +95,111 @@ body, html {
     margin: 0 auto;
     padding: 0 15px;
     width: 100%;
-    max-width: 1300px;
+    min-width: 1300px;
     border-radius: 10px;
     height: 28rem;
+}
+
+.navbar {
+    background-color: #fffbc5;
+    overflow: hidden;
+    transition: 0.4s ease;
+    border: 4px;
+    border-color: rgb(37, 37, 37);
+    border-radius: 10px;
+}
+
+
+.nav-a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-color: bisque;
+}
+
+.nav-a:hover {
+    background-color: #fffed3;
+    color: black;
+    border: 5px;
+}
+
+.navbar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.navbar-1 {
+    background-color: #496e99;
+    overflow: hidden;
+    transition: 0.4s ease;
+    border: 4px;
+    border-color: rgb(37, 37, 37);
+}
+
+
+.nav-a-1 {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-color: rgb(162, 177, 232);
+}
+
+.nav-a-1:hover {
+    background-color: #b5c7ed;
+    color: black;
+    border: 5px;
+}
+
+
+.navbar-1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.sad_start {
+    text-align: center;
+    color: #3b3b3b;
+}
+
+.sad-card {
+    background-color: rgb(176, 175, 212);
+    border: 10px;
+    border-color: rgb(8, 19, 45);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    border-radius: 10px;
+    height: 630px;
+    width: 340px;
+}
+
+.special_text {
+    color: #3b3b3b;
+}
+
+.special_card {
+    border: 3px;
+    border-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f4f7da;
+    border-radius: 10px;
+    height: 600px;
+    width: 330px;
+    justify-content: center;
+}
+.special-B-text {
+    color: #3b3b3b;
+    text-align: center;
 }
 
