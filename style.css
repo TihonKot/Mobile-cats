@@ -51,7 +51,7 @@ body, html {
     background-color: #fdf3db;
     border-radius: 10px;
     height: 420px;
-    width: 330px;
+    width: 340px;
     justify-content: center;
 }
 
@@ -152,7 +152,7 @@ body, html {
 }
 
 .nav-a-1:hover {
-    background-color: #b5c7ed;
+    background-color: #e3edb5;
     color: black;
     border: 5px;
 }
@@ -162,6 +162,28 @@ body, html {
     content: "";
     display: table;
     clear: both;
+}
+
+.btn {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #f4c442; /* Серый цвет фона */
+    color: #000000; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+
+}
+
+.btn-1 {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8fd83b; /* Серый цвет фона */
+    color: #000000; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    justify-content: center; 
+    width: 200px;
+    height: 55px;
 }
 
 
@@ -194,8 +216,8 @@ body, html {
     text-align: center;
     background-color: #f4f7da;
     border-radius: 10px;
-    height: 600px;
-    width: 330px;
+    height: 650px;
+    width: 340px;
     justify-content: center;
 }
 .special-B-text {
