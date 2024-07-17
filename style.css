@@ -152,7 +152,7 @@ body, html {
 }
 
 .nav-a-1:hover {
-    background-color: #e3edb5;
+    background-color: rgb(134, 155, 231);
     color: black;
     border: 5px;
 }
@@ -186,6 +186,51 @@ body, html {
     height: 55px;
 }
 
+.wide-img-1 {
+    width: 20rem;
+    border-radius: 10px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.4s ease;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f0f1e8;
+}
+
+
+.wide-text {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+
+.wide-card {
+    background-color: white;
+    border: 3px;
+    border-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    background-color: #eaeaea;
+    border-radius: 10px;
+}
+
+.btn-2 {
+    display: block; /* Строчно-блочный элемент */
+    background: #3dd56b; /* Серый цвет фона */
+    color: #000000; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    text-align: center;
+    width: 200px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
 
 .sad_start {
     text-align: center;
@@ -224,4 +269,56 @@ body, html {
     color: #3b3b3b;
     text-align: center;
 }
+
+.wide-text {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+
+.img-dvor {
+    border-radius: 10px;
+    width: 10rem;
+}
+
+
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(0, 0, 0); /* Text color */
+    font-size: 50px; /* Adjust as needed */
+    font-family: Arial, sans-serif; /* Font family */
+    padding: 20px; /* Add some padding */
+    background-color: rgba(255, 255, 255, 0.835);
+    border-radius: 10px;
+    width: 10rem;
+}
+
+.card-video {
+    background-color: rgb(250, 236, 197);
+    border: 5px;
+    border-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    border-radius: 10px;
+    width: 20rem;
+}
+
+.video {
+    width: 15rem;
+    border-radius: 10px;
+}
+
 
